@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="sticky top-0 bg-white border-b-2 border-green-500 z-20">
+        <div class="container mx-auto grid grid-cols-2 grid lg:grid-cols-12 py-5 px-5 lg:px-0">
+            <div class="lg:col-span-3">
+                <a href="trang1.html"><img src="image/1.png" alt=""></a>
+            </div>
+            <div class="sm:col-span-8  flex ml-auto py-3 hidden lg:block">
+                <ul>
+                    <li id="click" class=" mx-3 inline-block uppercase font-bold relative"><a
+                            href="trang1.html">home</a>
+                        <ul id="click1" class="absolute w-48 mt-10 bg-green-500 hidden">
+                            <li class="py-2 hover:bg-green-600 transition duration-700 border-b border-black p-3"><a
+                                    href="#">Home 1</a></li>
+                            <li class="py-2 hover:bg-green-600 transition duration-700 border-b border-black p-3"><a
+                                    href="#">Home 2</a></li>
+                            <li class="py-2 hover:bg-green-600 transition duration-700 p-3"><a href="#">Home 3</a></li>
+                        </ul>
+                    </li>
+                    <li class=" mx-3 inline-block uppercase font-bold"><a href="trang2.html">about</a></li>
+                    <li class=" mx-3 inline-block uppercase font-bold"><a href="#">pages</a></li>
+                </ul>
+            </div>
+            <div class="col-span-1 hidden lg:block ml-auto py-3 ">
+                <i class="fas fa-search mx-3 border-r border-black pr-5"></i>
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="ml-auto lg:hidden">
+                <i class="fas fa-bars fa-2x mt-2"></i>
+            </div>
+        </div>
+    </section>
+    <section class="bg-bottom bg-no-repeat" style="background-image:url(image/2.jpg);">
+        <div class="container mx-auto px-5 lg:px-2">
+            <div class="py-16">
+                <h3 class="uppercase text-white text-3xl font-bold">
+                    Service Grid 1
+                </h3>
+            </div>
+            <div class="w-56">
+                <p class="p-4 text-white font-bold bg-green-600 rounded-tl-md rounded-tr-md">Greenova - Service Grid 1
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="container mx-auto mt-20">
+        <div class="grid lg:grid-cols-3  grid sm:grid-cols-2 gap-8 px-5 lg:px-0" id="services">
+            <div>
+                <div class="relative overflow-x">
+                    <a href="#"><img class="rounded-md"src="image/blog10-460x270.jpg" alt=""></a>
+                    <div
+                        class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                        <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Fresh Vegetables</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto sm:mx-0 mt-2 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of classical Latin</p>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <div class="relative">
+                        <a href="#"><img class="rounded-md" src="image/blog08-460x270.jpg" alt=""></a>
+                        <div
+                            class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                            <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Roof Garden</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto sm:mx-0 mt-2 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of classical Latin</p>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <a href="#"><img class="rounded-md" src="image/blog_09-460x270.jpg" alt=""></a>
+                    <div
+                        class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                        <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Soil Preparing</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto sm:mx-0 mt-2 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of classical Latin</p>
+                </div>
+            </div>
+            <div class="">
+                <div class="relative">
+                    <a href="#"><img class="rounded-md" src="image/blog17-460x270.jpg" alt=""></a>
+                    <div
+                        class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                        <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Rubbish Removal</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto mt-2 sm:mx-0 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of
+                        classical Latin</p>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <a href="#"><img class="rounded-md" src="image/blog16-460x270.jpg" alt=""></a>
+                    <div
+                        class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                        <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Lawn Care</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto sm:mx-0 mt-2 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of
+                        classical Latin</p>
+                </div>
+            </div>
+            <div>
+                <div class="relative">
+                    <a href="#"><img class="rounded-md" src="image/blog18-460x270.jpg" alt=""></a>
+                    <div
+                        class="absolute top-0 h-full opacity-0 duration-1000 pt-20 lg:pt-24 pl-40 lg:pl-48 bg-green-500 w-full hover:opacity-75">
+                        <a href="#"><i class="fas fa-plus  rounded-full p-3 bg-white"></i></a>
+                    </div>
+                </div>
+                <div class="text-center sm:text-left mb-5 sm:mt-0">
+                    <a href="#">
+                        <h3 class="font-bold mt-5 text-2xl hover:text-green-500 duration-1000">Landscaping</h3>
+                    </a>
+                    <p class="border-b-4 mx-auto mt-2 sm:mx-0 border-green-500 w-12"></p>
+                    <p class="mt-5">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                        piece of
+                        classical Latin</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-800 py-16 mt-12">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 grid sm:grid-cols-12">
+                <div class="sm:col-span-3">
+                </div>
+                <div class="sm:col-span-3 ml-5 sm:mx-auto">
+                    <h3 class="font-bold text-white text-2xl">Useful Links</h3>
+                    <p class="border-b-2 w-12 border-green-500 mt-2"></p>
+                    <ul class="mt-5">
+                        <li class="text-white py-2 hover:text-green-500"><a href="#">Ordering Info</a></li>
+                        <li class="text-white py-2 hover:text-green-500"><a href="#">Shipping & Delivery</a></li>
+                        <li class="text-white py-2 hover:text-green-500"><a href="#">Our Guarantee</a></li>
+                        <li class="text-white py-2 hover:text-green-500"><a href="#">Pricing Tables</a></li>
+                    </ul>
+                </div>
+                <div class="sm:col-span-3 ml-5 mt-5 sm:mt-0 sm:ml-0">
+                    <h3 class="font-bold text-white text-2xl">Tag Cloud</h3>
+                    <p class="border-b-2 border-green-500 w-12 mt-2"></p>
+                    <div class="text-white flex sm:flex-col lg:flex-row mt-8">
+                        <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 p-2 bg-gray-700 w-24">
+                            education</p>
+                        <div class="flex sm:mt-2 lg:mt-0 ">
+                            <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 p-2 bg-gray-700">
+                                eikra
+                            </p>
+                            <p class=" border-gray-900 rounded-full hover:bg-green-500 p-2 bg-gray-700">finance</p>
+                        </div>
+                    </div>
+                    <div class="text-white flex sm:flex-col lg:flex-row">
+                        <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 bg-gray-700 p-2 mt-2 w-24">
+                            Green Roof</p>
+                        <div class="flex">
+                            <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 bg-gray-700 p-2 mt-2">
+                                miako</p>
+                            <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 bg-gray-700 p-2 mt-2">
+                                plants</p>
+                        </div>
+                    </div>
+                    <div class="flex text-white">
+                        <p class="mr-5 border-gray-900 rounded-full hover:bg-green-500 bg-gray-700 p-2 mt-2">redchili
+                        </p>
+                        <p class=" border-gray-900 rounded-full hover:bg-green-500 bg-gray-700 p-2 mt-2">writing</p>
+                    </div>
+                </div>
+                <div class="sm:col-span-3 mt-5 ml-5 sm:mt-0 sm:ml-0 sm:px-5 lg:px-0">
+                    <h3 class="text-white font-bold text-2xl">SignUp For Newsletter</h3>
+                    <p class="border-b-2 border-green-500 mt-2 w-12"></p>
+                    <p class="text-white mt-5">We are an environmentally friendly ren ewable energy.</p>
+                    <form class="flex relative mr-5 sm:mr-0" action="">
+                        <input class="bg-gray-700 w-full p-3 rounded-md mt-8 text-white" type="email"
+                            placeholder="Enter your e-mail here" id="">
+                        <button><i
+                                class="fas fa-paper-plane text-green-500 absolute mt-2 right-0 pr-5 cursor-pointer"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black py-8">
+        <div class="container mx-auto">
+            <div class="text-white sm:flex justify-center px-5 text-center">
+                <p>© Copyright Greenedge 2018. Designed and Developed by</p>
+                <a href="#">
+                    <h4 class="font-bold hover:underline ml-2">RadiusTheme</h4>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/978924ea4f.js
+                                        " crossorigin="anonymous"></script>
+</body>
+
+</html>
